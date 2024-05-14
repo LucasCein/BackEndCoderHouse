@@ -1,66 +1,44 @@
 [
   {
-    "id": "ce535afc-3065-4d0c-bd79-248dec748edb",
-    "title": "Auriculares Inalámbricos2",
-    "description": "Auriculares inalámbricos con cancelación de ruido y 24 horas de batería.",
-    "price": 200,
-    "thumbnail": "url_to_image_headphones",
-    "code": "HP-005",
-    "stock": 15,
-    "category": "Accesorios",
-    "status": true
-  },
-  {
-    "id": "32a05049-c3a2-46c1-99ef-e63106e95c31",
-    "title": "Auriculares Inalámbricos3",
-    "description": "Auriculares inalámbricos con cancelación de ruido y 24 horas de batería.",
-    "price": 200,
-    "thumbnail": "url_to_image_headphones",
-    "code": "HP-003",
-    "stock": 15,
-    "category": "Accesorios",
-    "status": true
-  },
-  {
-    "id": "268b50e9-7fce-4f9f-becd-738e3991c194",
-    "title": "Auriculares Inalámbricos3",
-    "description": "Auriculares inalámbricos con cancelación de ruido y 24 horas de batería.",
-    "price": 200,
-    "thumbnail": "url_to_image_headphones",
-    "code": "HP-004",
-    "stock": 15,
-    "category": "Accesorios",
-    "status": true
-  },
-  {
-    "id": "78343bc6-b9b2-4d30-abb2-4fb5270068cd",
-    "title": "Auriculares Inalámbricos3",
-    "description": "Auriculares inalámbricos con cancelación de ruido y 24 horas de batería.",
-    "price": 200,
-    "thumbnail": "url_to_image_headphones",
-    "code": "HP-006",
-    "stock": 15,
-    "category": "Accesorios",
-    "status": true
-  },
-  {
-    "id": "329f7b81-b546-4d53-9bb1-4c6b8e6fa22a",
-    "title": "Auriculares Inalámbricos3",
-    "description": "Auriculares inalámbricos con cancelación de ruido y 24 horas de batería.",
-    "price": 200,
-    "thumbnail": "url_to_image_headphones",
-    "code": "HP-007",
-    "stock": 15,
-    "category": "Accesorios",
-    "status": true
-  },
-  {
-    "id": "6ac2311a-5013-40ac-b7fe-1d289dee1283",
+    "id": "382753bb-665a-4395-a774-ebaa2fdc6ffa",
     "title": "Auriculares Inalámbricos3",
     "description": "Auriculares inalámbricos con cancelación de ruido y 24 horas de batería.",
     "price": 200,
     "thumbnail": "url_to_image_headphones",
     "code": "HP-008",
+    "stock": 15,
+    "category": "Accesorios",
+    "status": true
+  },
+  {
+    "id": "de2bcbae-4781-40b1-9c61-795ea9f59c5a",
+    "title": "Auriculares Inalámbricos2",
+    "description": "Auriculares inalámbricos con cancelación de ruido y 24 horas de batería.",
+    "price": 200,
+    "thumbnail": "url_to_image_headphones",
+    "code": "HP-065",
+    "stock": 15,
+    "category": "Accesorios",
+    "status": true
+  },
+  {
+    "id": "eb1564d5-11e0-4840-b544-8825ac858f41",
+    "title": "Auriculares Inalámbricos2",
+    "description": "Auriculares inalámbricos con cancelación de ruido y 24 horas de batería.",
+    "price": 200,
+    "thumbnail": "url_to_image_headphones",
+    "code": "HP-078",
+    "stock": 15,
+    "category": "Accesorios",
+    "status": true
+  },
+  {
+    "id": "129155dc-918d-4e1a-b2c9-f640beaac2b6",
+    "title": "Auriculares Inalámbricos2",
+    "description": "Auriculares inalámbricos con cancelación de ruido y 24 horas de batería.",
+    "price": 200,
+    "thumbnail": "url_to_image_headphones",
+    "code": "HP-098",
     "stock": 15,
     "category": "Accesorios",
     "status": true
