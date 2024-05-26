@@ -1,0 +1,13 @@
+<section class="Container">
+    <h1>Products</h1>
+    <section id="products" class="products">
+        {{#each products}}
+        <article class="product">
+            <h3 class="title">{{title}}</h3>
+            <img class="thumbnail" src="{{thumbnail}}" alt="{{title}}">
+            <p class="description">{{description}}</p>
+            <p class="price">${{price}}</p>
+        </article>
+        {{/each}}
+    </section>
+</section>

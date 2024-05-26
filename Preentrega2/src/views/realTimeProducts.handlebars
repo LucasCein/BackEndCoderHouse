@@ -1,0 +1,21 @@
+<section>
+    <h1>Real time Products</h1>
+    <form id="product-form" class="form">
+        <input type="text" id="title" placeholder="Title" required>
+        <input type="text" id="description" placeholder="Description" required>
+        <input type="number" id="price" placeholder="Price" required>
+        <input type="text" id="thumbnail" placeholder="Thumbnail URL" required>
+        <input type="text" id="code" placeholder="Code" required>
+        <input type="number" id="stock" placeholder="Stock" required>
+        <input type="text" id="category" placeholder="Category" required>
+        <button type="submit" id="submit">Enviar</button>
+    </form>
+</section>
+<section class="container">
+    <section id="products" class="products"></section>
+</section>
+
+<script src="/socket.io/socket.io.js" charset="utf-8"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="index.js" charset="utf-8"></script>
