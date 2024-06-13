@@ -1,0 +1,16 @@
+<section class="Container">
+    <h1>Products</h1>
+    <section id="products" class="products">
+        {{#each products}}
+        <article class="product">
+            <h3 class="title">{{title}}</h3>
+            <img class="thumbnail" src={{thumbnail}} alt={{title}}>
+            <p class="description">{{description}}</p>
+            <p class="price">${{price}}</p>
+            <button id={{_id}} class="addToCart">Agregar</button>
+        </article>
+        {{/each}}
+    </section>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="/static/index.js" charset="utf-8"></script>
