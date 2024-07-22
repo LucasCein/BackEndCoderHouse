@@ -12,7 +12,7 @@ const ProductSchema = new Schema({
   status: { type: Boolean, required: true, default: true },
 });
 
-ProductSchema.plugin(mongoosePaginate)
+ProductSchema.plugin(mongoosePaginate);
 const ProductModel = model(productCollectionName, ProductSchema);
 
 export default ProductModel;
