@@ -1,0 +1,32 @@
+.marginNav{
+    margin-left:20px
+}
+.marginCart{
+    margin-right:20px
+}
+.centerItemsNavs{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.marginSections{
+    gap: 20px;
+}
+
+.sectionStyle{
+    text-decoration: none;
+    color: white;
+}
+.sectionActive{
+    color: white;
+    font-weight: bold;
+}
+.sectionStyle:hover{
+   color: white;
+   font-weight: bold;
+}
+.sectionActive:hover{
+    color: white;
+    font-weight: bold;
+}

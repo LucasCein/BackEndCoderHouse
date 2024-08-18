@@ -1,0 +1,16 @@
+<section class="Container">
+  <h1>Cart</h1>
+  <section id="products" class="products">
+    {{#each cart.products}}
+    <article class="product">
+      <h3 class="title">{{product.title}}</h3>
+      <img class="thumbnail" src="{{product.thumbnail}}" alt="{{product.title}}">
+      <p class="description">{{product.description}}</p>
+      <p class="price">${{product.price}}</p>
+      <p class="quantity">Quantity: {{quantity}}</p>
+      <button id={{product._id}} class="delete">Eliminar</button>
+    </article>
+    {{/each}}
+  </section>
+</section>
+<script src="/static/cart.js"></script>

@@ -1,0 +1,55 @@
+/* LoginForm.css */
+.containerDiv {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+}
+
+.back {
+  height: 100vh;
+  background-image: url("https://www.dopesnowargentina.com/images/hoverimg/202301051450491835.jpg");
+
+}
+
+.login-form {
+  max-width: 600px;
+  min-height: 600px;
+
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+
+  background-color: rgba(255, 255, 255, 0.773);
+
+  backdrop-filter: blur(5px);
+
+}
+
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+.login-form button:hover {
+  background-color: #45a049;
+}
