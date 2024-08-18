@@ -39,7 +39,7 @@ const Login = () => {
                 setError(data.error);
                 }
                 else {
-                    navigate('/');
+                    navigate('/init');
                 }
 
             });

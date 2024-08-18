@@ -51,7 +51,6 @@ export const addProductToCart = async (req, res) => {
   try {
     const { cid } = req.params;
     const { pid } = req.params;
-    console.log('cid', cid, 'pid', pid)
     const cart = await service.addProductToCart(cid, pid);
     res.send(cart);
   } catch (error) {
@@ -73,7 +72,6 @@ export const deleteProductFromCart = async (req, res) => {
 export const updateCart = async (req, res) => {
   try {
     const { cid } = req.params;
-    console.log(cid);
     const products = req.body; // Asume que req.body es un array de productos
     const cart = await service.updateCart(cid, products);
     res.status(200).json(cart);
@@ -109,8 +107,7 @@ export const deleteProdsFromCart = async (req, res) => {
 export const purchaseCart = async (req, res) => {
     try {
         const { cid } = req.params;
-        const result = await service.purchaseCartService(cid);
-
+        const result = await service.purchaseCartService(cid, req.user);
         res.json(result);
     } catch (error) {
         console.error('Error al finalizar la compra:', error);

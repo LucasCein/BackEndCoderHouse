@@ -13,5 +13,5 @@ router.delete("/:cid/product/:pid",authenticateJWT,authorizations(['user']), con
 router.put("/:cid",authenticateJWT,authorizations(['user']), controller.updateCart);
 router.put("/:cid/product/:pid",authenticateJWT,authorizations(['user']), controller.quantityCartProduct);
 router.delete("/:cid",authenticateJWT,authorizations(['user']), controller.deleteProdsFromCart);
-router.post('/:cid/purchase', controller.purchaseCart);
+router.post('/:cid/purchase',authenticateJWT, controller.purchaseCart);
 export default router

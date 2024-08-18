@@ -27,11 +27,11 @@ function App() {
         </ShownavBar>
         <Routes>
           <Route
-            path='/'
+            path='/init'
             element={<InitContainer />}
           />
           <Route
-            path='/login'
+            path='/'
             element={<Login />}
           />
           <Route

@@ -4,13 +4,12 @@ export default class UserDaoMongoDb {
     constructor(db) {
         this.db = db;
     }
-    async createCart({ products }) {
+
+    async create(user) {
         try {
-            const newCart = await CartModel.create({ products });  // Almacenar `products` directamente en la base de datos
-            return newCart;
+            return await UserModel.create(user);
         } catch (error) {
             console.error(error);
-            throw error;
         }
     }
     

@@ -69,7 +69,7 @@ export const deleteProdsFromCart = async (cartId) => {
     }
 }
 
-export const purchaseCartService = async (cartId) => {
+export const purchaseCartService = async (cartId,user) => {
     const cart = await getCartById(cartId);
     if (!cart) {
         throw new Error('Carrito no encontrado');
@@ -95,10 +95,10 @@ export const purchaseCartService = async (cartId) => {
     // Actualizar el carrito para que solo contenga los productos que no pudieron comprarse
     cart.products = failedProducts;
     await updateCart(cartId, cart);
-
     return {
         message: successfulProducts.length > 0 ? 'Compra realizada con éxito' : 'No se pudo realizar la compra',
         successfulProducts,
-        failedProducts
+        failedProducts,
+        user
     };
 };
