@@ -8,7 +8,7 @@ export const generateData = async (req, res, next) => {
         const { users, pets } = req.body;
 
         if (!users || !pets) {
-            return next(new Error('VALIDATION_ERROR')); // Usa el mensaje del diccionario de errores
+            return next(new Error('VALIDATION_ERROR')); 
         }
 
         await createUsersMock(users);
@@ -18,7 +18,7 @@ export const generateData = async (req, res, next) => {
             message: `Se han insertado ${users} usuarios y ${pets} mascotas en la base de datos.`
         });
     } catch (error) {
-        return next(new Error('DATABASE_ERROR')); // Enviar error de base de datos si falla
+        return next(new Error('DATABASE_ERROR')); 
     }
 };
 
@@ -27,7 +27,7 @@ export const getUsersData = async (req, res, next) => {
         const users = await getUsers();
         res.json(users);
     } catch (error) {
-        return next(new Error('DATABASE_ERROR')); // Enviar error de base de datos si falla
+        return next(new Error('DATABASE_ERROR')); 
     }
 };
 
@@ -36,6 +36,6 @@ export const getPetsData = async (req, res, next) => {
         const pets = await getPets();
         res.json(pets);
     } catch (error) {
-        return next(new Error('DATABASE_ERROR')); // Enviar error de base de datos si falla
+        return next(new Error('DATABASE_ERROR')); 
     }
 };

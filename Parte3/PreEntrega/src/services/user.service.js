@@ -6,12 +6,12 @@ export const createUsersMock = async (cant = 20) => {
     try {
         const usersArray = [];
         for (let i = 0; i < cant; i++) {
-            const user = await generateUser(); // Usa 'await' para esperar a que se genere cada usuario
+            const user = await generateUser(); 
             usersArray.push(user);
         }
-        return await UserModel.create(usersArray); // Inserta todos los usuarios generados en la base de datos
+        return await UserModel.create(usersArray); 
     } catch (error) {
-        console.error('Error al crear usuarios:', error.message); // Imprimir el error en la consola
+        console.error('Error al crear usuarios:', error.message); 
         throw new Error(error);
     }
 };

@@ -25,7 +25,7 @@ const errorDictionary = {
         code: 'SERVER_ERROR',
         message: 'Error interno del servidor. Por favor, intenta más tarde.'
     }
-    // Agrega más errores comunes aquí
+    
 };
 
 export default errorDictionary;
